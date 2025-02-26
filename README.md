@@ -7,13 +7,13 @@ bool isPalindrome(int x);
 int main() {
     int num;
     
-    printf("Ingrese un número: ");
+    printf("Ingrese un numero: ");
     scanf("%d", &num);
     
     if (isPalindrome(num)) {
-        printf("El número %d es un palíndromo.\n", numero);
+        printf("El numero %d es un palindromo.\n", num);
     } else {
-        printf("El número %d no es un palíndromo.\n", numero);
+        printf("El numero %d no es un palindromo.\n", num);
     }
     
     return 0;
